@@ -731,3 +731,21 @@ Redis can be used as a simple message queue, as well has being a data store.
 - [re:Invent Scaling up to first 10 million users](https://www.youtube.com/watch?v=w95murBkYmU)
 
 ### Management and Monitoring
+
+## Soft skills
+
+### Ways of Working
+
+#### User stories
+
+- [How and why to write great user stories](https://www.freecodecamp.org/news/how-and-why-to-write-great-user-stories-f5a110668246/)
+
+**User stories**
+- They are the "What" (tasks are the "How")
+- Keep them short
+- Keep them simple
+- User stories are not the same as tasks. A user story will often consist of multiple tasks
+- Write from the perspective fo the user
+- Make the value/benefit of the story clear - what is the reason for the story
+- Describe one piece of functionality
+- Use acceptance critera to show a MVP
