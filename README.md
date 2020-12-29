@@ -385,7 +385,7 @@ REST is an architectural style, enforcing a client/server model. The client acts
 
 HTTP is a protocol for transferring data from client to server (request/response). It operates on layer 7 of the OSI model. Typical HTTP verbs include:
 
-||Verb||Description||Idempotent||Safe||Cacheable||
+|Verb|Description|Idempotent|Safe|Cacheable|
 |---|---|---|---|---|
 |GET|Read a resource|Yes|Yes|Yes|
 |POST|Creates a resource or trigger a process that handles data|No|No|Yes if response contains freshness info|
