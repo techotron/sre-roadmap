@@ -395,6 +395,9 @@ HTTP is a protocol for transferring data from client to server (request/response
 
 [Source](https://github.com/donnemartin/system-design-primer#hypertext-transfer-protocol-http)
 
+#### Connection Pooling
+- [Overview](https://www.testingsyndicate.com/2018/09/15/why-connection-pool-between-your-microservices/)
+
 #### Security
 
 - [Security Checklist](https://github.com/FallibleInc/security-guide-for-developers/blob/master/security-checklist.md)
