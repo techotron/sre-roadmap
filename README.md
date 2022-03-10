@@ -66,7 +66,7 @@ A fair bit on content for this has been sourced from [system-design-primer](http
     + [Domain Keys](#domain-keys)
   * [HTTP](#http)
     + [Security](#security)
-    + [Connection Pooling](#connection_pooling)
+    + [Connection Pooling](#connection-pooling)
   * [HTTPS](#https)
   * [FTP](#ftp)
   * [SSL/TLS](#ssl-tls)
