@@ -50,7 +50,7 @@ A fair bit on content for this has been sourced from [system-design-primer](http
     + [Process Monitoring](#process-monitoring)
     + [Network](#network)
     + [Others](#others)
-- [Networking, Security and Protocols](#networking--security-and-protocols)
+- [Networking, Security and Protocols](#networking-security-and-protocols)
   * [Core Fundamentals](#core-fundamentals)
     + [Transmission Control Protocol (TCP)](#transmission-control-protocol--tcp-)
       - [3-way Handshake](#3-way-handshake)
@@ -72,6 +72,7 @@ A fair bit on content for this has been sourced from [system-design-primer](http
   * [SSL/TLS](#ssl-tls)
   * [SSH](#ssh)
   * [Port Forwarding](#port-forwarding)
+  * [DNS](#dns)
 - [What is and How to Setup a...](#what-is-and-how-to-setup-a)
   * [Reverse Proxy](#reverse-proxy)
     + [Concepts](#concepts)
@@ -416,6 +417,14 @@ HTTP is a protocol for transferring data from client to server (request/response
 ### SSH
 
 ### Port Forwarding
+
+### DNS
+
+- [Alias vs CNAME](https://help.ns1.com/hc/en-us/articles/360017511293-What-is-the-difference-between-CNAME-and-ALIAS-records-)
+  - CNAME -> Client will do 2 lookups (assuming nothing is already cached). Client gets CNAME from NS. Client then has to resolve returned CNAME from NS.
+  - ALIAS -> Client will do 1 lookup and auth nameserver will do the other. This is faster (presumably the NS are closer together/faster network) but it losses Geoproximity as the nameserver does the second lookup to the authoritative nameserver, not the client.
+- [Slack DNSSEC Rollout](https://slack.engineering/what-happened-during-slacks-dnssec-rollout/)
+  - (Contains lots of good DNS info)
 
 ## What is and How to Setup a...
 
