@@ -23,6 +23,7 @@ A fair bit on content for this has been sourced from [system-design-primer](http
   * [I/O Management](#i-o-management)
   * [Process Management](#process-management-1)
   * [Memory and Storage](#memory-and-storage)
+    + [Garbage Collection](#garbage-collection)
   * [File Systems](#file-systems)
 - [Learn about Managing Servers](#learn-about-managing-servers)
   * [Operating System](#operating-system)
@@ -229,6 +230,10 @@ A fair bit on content for this has been sourced from [system-design-primer](http
 ### Process Management
 
 ### Memory and Storage
+
+#### Garbage Collection
+
+- [GC Patterns in monitoring](https://blog.gceasy.io/2021/10/15/interesting-garbage-collection-patterns/)
 
 ### File Systems
 
