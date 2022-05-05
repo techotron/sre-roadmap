@@ -235,6 +235,9 @@ A fair bit on content for this has been sourced from [system-design-primer](http
 
 - [GC Patterns in monitoring](https://blog.gceasy.io/2021/10/15/interesting-garbage-collection-patterns/)
 
+- A full GC is computationally expensive and is a "stop the world" event, meaning from the user's perspective, they won't see a response during a full GC event. If you're seeing consequtive full GCs, [this post](https://blog.gceasy.io/2016/11/22/eliminate-consecutive-full-gcs/) may help in eliminating them.
+- [Diagnosing memory leak problems](https://blog.ycrash.io/2021/02/22/chaos-engineering-simulating-outofmemoryerror/)
+
 ### File Systems
 
 ## Learn about Managing Servers
